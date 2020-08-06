@@ -2,7 +2,7 @@
 
 One of the things that you would have seen when you looked at the images is that there's a lot of wasted space in each image. While there are only 784 pixels, it will be interesting to see if there was a way that we could condense the image down to the important features that distinguish what makes it a shoe, or a handbag, or a shirt. That's where convolutions come in.
 
-[alt text](https://github.com/Immich/TensorFlowEspecialization/blob/master/Course-1/imgs/cnn.png "Convolutional Neural Nets")
+![alt text](https://github.com/Immich/TensorFlowEspecialization/blob/master/Course-1/imgs/cnn.png "Convolutional Neural Nets")
 
 For every pixel, take its value, and take a look at the value of its neighbors. If our filter is three by three, then we can take a look at the immediate neighbor, so that you have a corresponding three by three grid. Then to get the new value for the pixel, we simply multiply each neighbor by the corresponding value in the filter.
 
