@@ -11,7 +11,7 @@ One feature of the image generator in TensorFlow is that you can point it at a d
 
 Directory structure:
 
-![alt text]( "TensorFlow Image Generator")
+![alt text](https://github.com/Immich/TensorFlowEspecialization/blob/master/Course-1/imgs/imageGenerator.png "TensorFlow Image Generator")
 
 ```python
 # We pass rescale to it to normalize the data.
